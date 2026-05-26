@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet } from "@angular/router";
+import { ImonNavigationComponent } from "./imon-navigation/imon-navigation.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ImonNavigationComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
